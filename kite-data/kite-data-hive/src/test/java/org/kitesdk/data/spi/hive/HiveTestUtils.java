@@ -17,7 +17,7 @@
 package org.kitesdk.data.spi.hive;
 
 import org.apache.hadoop.hive.metastore.HiveMetaStoreClient;
-import org.apache.hadoop.hive.metastore.MetaStoreUtils;
+import org.apache.hadoop.hive.metastore.utils.MetaStoreUtils;
 import org.apache.hadoop.hive.metastore.TableType;
 import org.apache.hadoop.hive.metastore.api.MetaException;
 import org.apache.hadoop.hive.metastore.api.Table;
@@ -47,7 +47,6 @@ public abstract class HiveTestUtils {
     final Table table = client.getTable(db, name);
     Assert.assertTrue("Table should be external db:" + db + " table:" + table,
         !MetaStoreUtils.isExternalTable(table) &&
-        !MetaStoreUtils.isIndexTable(table) &&
         TableType.MANAGED_TABLE.toString().equals(table.getTableType()));
   }
 }

@@ -129,7 +129,7 @@
     <artifact.hbase-test-deps>kite-hbase-test-dependencies</artifact.hbase-test-deps>
 
     <!-- Library versions -->
-    <vers.avro>1.7.5</vers.avro>
+    <vers.avro>1.8.1</vers.avro>
     <vers.commons-codec>1.4</vers.commons-codec>
     <vers.commons-io>2.5</vers.commons-io>
     <vers.commons-logging>1.1.1</vers.commons-logging>
@@ -153,7 +153,7 @@
          pulled in by the TransformTask in kite-tools. New dependencies
          should be added to the distributed cache by class.
          -->
-    <vers.hive>1.1.0</vers.hive>
+    <vers.hive>3.1.3</vers.hive>
     <vers.hive-cdh5>1.1.0-cdh${cdh5.version}</vers.hive-cdh5>
     <vers.jetty>8.1.14.v20131031</vers.jetty>
     <vers.jetty.morphlines>9.3.8.v20160314</vers.jetty.morphlines>
@@ -165,7 +165,7 @@
     <vers.mockito>1.9.5</vers.mockito>
     <vers.mojo-executor>1.5</vers.mojo-executor>
     <vers.oozie>3.3.2-cdh${cdh.version}</vers.oozie> <!-- OOZIE-1790 -->
-    <vers.parquet>1.8.1</vers.parquet>
+    <vers.parquet>1.9.0</vers.parquet>
     <vers.plexus-utils>3.0</vers.plexus-utils>
     <vers.rat>0.9</vers.rat>
     <vers.slf4j>1.6.1</vers.slf4j>
@@ -186,7 +186,7 @@
     <vers.doxia-module-markdown>1.4</vers.doxia-module-markdown>
     <vers.doxia-module-confluence>1.4</vers.doxia-module-confluence>
     <vers.build-helper-maven-plugin>1.8</vers.build-helper-maven-plugin>
-    <vers.findbugs-maven-plugin>3.0.0</vers.findbugs-maven-plugin>
+    <vers.findbugs-maven-plugin>3.0.4</vers.findbugs-maven-plugin>
     <vers.github-site-maven-plugin>0.10</vers.github-site-maven-plugin>
     <vers.maven-compiler-plugin>3.1</vers.maven-compiler-plugin>
     <vers.maven-enforcer-plugin>1.3.1</vers.maven-enforcer-plugin>
